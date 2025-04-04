@@ -1,5 +1,5 @@
 {
-  "name": "mombile",
+  "name": "soccer-games-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,31 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@gluestack-style/react": "^1.0.57",
+    "@gluestack-ui/themed": "^1.1.72",
+    "@react-native-aria/checkbox": "^0.2.10",
+    "@react-native-aria/focus": "^0.2.9",
+    "@react-native-aria/interactions": "^0.2.16",
+    "@react-native-aria/overlays": "^0.3.15",
+    "@react-native-aria/utils": "^0.2.12",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "@reduxjs/toolkit": "^2.6.1",
     "expo": "~52.0.42",
+    "expo-image-picker": "^16.0.6",
+    "expo-router": "^4.0.20",
     "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.8"
+    "firebase": "^11.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.76.9",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
