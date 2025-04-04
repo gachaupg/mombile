@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mombile",
+    "name": "Soccer Games App",
     "slug": "mombile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,17 +12,36 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "description": "A mobile app for soccer fans to track games and profiles",
+    "privacy": "public",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/893f89b0-3905-471a-9838-0c1b9acb62c9"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.peter.soccergamesapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.peter.soccergamesapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "893f89b0-3905-471a-9838-0c1b9acb62c9"
+      }
     }
   }
 }
